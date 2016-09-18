@@ -1,0 +1,5 @@
+Configure RagDoll Targets Blender Addon
+=======================================
+
+Add empties at each of the selected bones position and rotation.
+Add a bone "copy transforms" pointing to the empty.
