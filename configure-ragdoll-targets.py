@@ -1,10 +1,18 @@
-# Add empties at each of the selected bones position and rotation.
-# Add a bone "copy transforms" pointing to the empty.
 
 import bpy
 
 bone_guide_format = 'RD_Target_{}'
 copy_transform_name = 'RD guide'
+
+bl_info = {
+    'name': 'Configure RagDoll Targets',
+    'author': 'gabriel montagné, gabriel@tibas.london',
+    'version': (0, 0, 1),
+    'blender': (2, 77, 0),
+    'description': 'Add empties at each of the selected bones position and rotation  and add a bone "copy transforms" pointing to the empty.',
+    'tracker_url': 'https://github.com/gabrielmontagne/blender-addon-configure-ragdoll-targets',
+    'category': 'Object'
+}
 
 class ConfigureRDTargets(bpy.types.Operator):
 
